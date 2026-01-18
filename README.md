@@ -27,8 +27,8 @@ A simple supervised approach using TF-IDF features to predict sentence relevance
 - Metric: ROUGE-2
 
 ## How to run (Jupyter/Python)
-- See `notebooks/` for short demos.
-- Core functions live in `src/`.
+- Minimal demos live in `notebooks/`.
+- Core helper functions live in `src/`.
 
 ## Dependencies
 Python 3.10+ and common NLP libraries (Transformers, Datasets, PyTorch, ROUGE evaluation).
