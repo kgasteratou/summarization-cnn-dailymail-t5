@@ -26,18 +26,12 @@ A simple supervised approach using TF-IDF features to predict sentence relevance
 - Decoding: beam search
 - Metric: ROUGE-2
 
-## How to run (Colab)
-Open the notebook in this repository and run the cells top-to-bottom:
-- `summarization_t5.ipynb`
+## How to run (Jupyter/Python)
+- See `notebooks/` for short demos.
+- Core functions live in `src/`.
 
 ## Dependencies
-Developed on Google Colab. Main libraries typically used:
-- `transformers`
-- `datasets`
-- `torch`
-- `evaluate` and/or `rouge-score`
-- `sentencepiece`
-- `numpy`, `pandas`, `tqdm`
+Python 3.10+ and common NLP libraries (Transformers, Datasets, PyTorch, ROUGE evaluation).
 
 ## Results (summary)
 The fine-tuned T5-small model improves ROUGE-2 over the simpler baselines, as expected for an abstractive setup. Outputs and evaluation are produced by the notebook.
