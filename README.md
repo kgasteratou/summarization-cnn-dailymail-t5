@@ -36,6 +36,8 @@ Python 3.10+ and common NLP libraries (Transformers, Datasets, PyTorch, ROUGE ev
 ## Results (summary)
 The fine-tuned T5-small model improves ROUGE-2 over the simpler baselines, as expected for an abstractive setup. Outputs and evaluation are produced by the notebook.
 
+See `EXPERIMENTS.md` for a public-safe summary of the fine-tuning/adaptation setup and results.
+
 ## Author note
 This repository is intended as a **portfolio artifact** demonstrating:
 - dataset handling and preprocessing
